@@ -19,10 +19,29 @@ p, ul, li, h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
+
 }
-.header {
-    background-color: #FCFCFC;
-    
+
+img {
+    display: block;
+}
+ 
+
+
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div, container {
+    display: flex;
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -32,31 +51,49 @@ p, ul, li, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 nav span {
     color: #2E2F42;
 }
+.header-list {
+    display: flex;
+    gap: 40px;
+
+}
 .header-menu {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2E2F42
+    color:#2E2F42;
+    padding: 24px 0 24px 0;
 }
 
 .header-menu:hover, .header-menu:focus {
     color: #404bbf;
 }
 .header-address {
-    line-height: 1.5;
     font-style: normal;
-color: #434455;
-letter-spacing: 0.02em;
 
 }
 .header-address:hover, .header-address:focus {
     color: #404bbf;
 }
+.header-address-list {
+    display: flex;
+        gap: 40px;
+    
+}
+.address-item {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
 .hero {
     background-color: #2e2f42;
     color: #FFFFFF;
@@ -98,6 +135,7 @@ letter-spacing: 0,02em;
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404bbf;
 }
+
 .strengths {
     font-weight: 500;
     font-size: 20px;
@@ -109,6 +147,8 @@ letter-spacing: 0,02em;
     line-height: 1.5;
     letter-spacing: 0.02em
 }
+
+
 
 .section-our-team {
     background-color: #F4F4FD;
@@ -138,6 +178,7 @@ letter-spacing: 0,02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .portfolio {
     font-size: 36px;
     line-height: 1.11;
@@ -159,6 +200,7 @@ letter-spacing: 0,02em;
     letter-spacing: 0.02em;
 
 }
+
 .footer {
     background-color: #2e2f42;
 

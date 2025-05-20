@@ -8,6 +8,21 @@ a {
 }
 ul {
     list-style: none;
+
+}
+p, ul, li, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.header {
+    background-color: #FCFCFC;
+    
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -50,6 +65,18 @@ letter-spacing: 0.02em;
 text-align: center;
 letter-spacing: 0,02em;
 
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    border: 0;
 }
 .hero-title{
     font-size: 56px;
